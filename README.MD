@@ -138,13 +138,13 @@ For compiling via Arduino IDE, download the packaged single-sketch release archi
 
 #### DualShock 4 / DualSense (Classic BT)
 1. **Prerequisite:** Because Classic BT is used, the controller must **already be paired with the PC (BC-250)** beforehand so the ESP32 can detect paging packets.
-2. **Automatic Registration:** With the **PC powered off**, click **`[Scan Controller / 패드 신호 찾기]`** on the Web UI (starts a 10-second scan window), then immediately press the **`PS button`** to power on the controller.
+2. **Automatic Registration:** With the **PC powered off**, click **`[Scan Controller]`** on the Web UI (starts a 10-second scan window), then immediately press the **`PS button`** to power on the controller.
 3. **Verify & Save:** Select the detected device, verify the MAC address is populated, and save the configuration.
 4. **Manual Entry:** You can also manually input the PC dongle MAC and Controller MAC into the web form and save.
 
 #### Xbox Wireless Controller (BLE)
 1. **Signal Behavior:** Uses BLE advertising packets; it can be detected as long as it is turned on, regardless of existing PC pairing.
-2. **Automatic Registration:** Click **`[Scan Controller / 패드 신호 찾기]`** on the Web UI and power on the controller via the **`Xbox button`**.
+2. **Automatic Registration:** Click **`[Scan Controller]`** on the Web UI and power on the controller via the **`Xbox button`**.
 3. **Manual Entry:** Manually entering the controller's BLE MAC address is also supported.
 
 > **Controller Post-Boot Behavior Notes**  
