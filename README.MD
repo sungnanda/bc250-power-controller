@@ -245,6 +245,10 @@ When adding an isolation component such as a **photocoupler (e.g., PC817)** or *
 
 This project is open-source and may be freely modified and distributed under the [MIT License](LICENSE).
 
+
+## Acknowledgments
+- Co-developed with Google Gemini
+
 <br><br>
 
 ---
@@ -493,3 +497,6 @@ ESP32를 활용하여 블루투스 컨트롤러[DualSense (Classic BT) / Xbox (B
 ## 8. License
 
 본 프로젝트는 [MIT License](LICENSE) 하에 자유롭게 수정 및 배포가 가능합니다.
+
+## Acknowledgments
+- Co-developed with Google Gemini
