@@ -52,6 +52,11 @@ By adopting **Passive Sniffing**, it eliminates pairing and handover conflicts w
 
 ## 3. Hardware Components
 
+> [!IMPORTANT]
+> **Board Compatibility Notice:**  
+> You **MUST use an ESP32-WROOM** (original ESP32 with Bluetooth Classic support).  
+> **ESP32-C3, ESP32-S2, and ESP32-S3 are NOT supported**, as the PS5 DualSense controller relies on Bluetooth Classic, which the C3/S-series chips lack.
+
 Components used in this reference implementation:
 
 | Category | Component | Specification | Notes |
@@ -304,6 +309,11 @@ ESP32를 활용하여 블루투스 컨트롤러[DualSense (Classic BT) / Xbox (B
 ---
 
 ## 3. 하드웨어 구성 및 준비물 (Hardware Components)
+
+> [!IMPORTANT]
+> **보드 호환성 :**  
+> **반드시 ESP32-WROOM(블루투스 클래식을 지원하는 오리지널 ESP32) 보드를 사용해야 합니다.**
+> **ESP32-C3, ESP32-S2, ESP32-S3 보드는 지원되지 않습니다.** PS5 듀얼센스/듀얼쇼크는 블루투스 클래식을 사용하는데, C3 및 S 시리즈 칩셋에는 블루투스 클래식이 지원되지 않기 때문입니다.
 
 프로젝트 구현에 사용된 부품 목록입니다.
 
